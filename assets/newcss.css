@@ -357,7 +357,6 @@ img {
 
 .button__icon {
   font-size: 1.25rem;
-  margin-left: 0.25rem;
   transition: 0.3s;
 }
 
@@ -392,6 +391,11 @@ img {
 .about__img {
   width: 170px;
   border-radius: 500%;
+  border: 5px solid var(--first-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 7px;
+  margin-right: 50px;
+  object-fit: cover;
   justify-self: center;
   align-self: center;
   /* border: 1px solid #fff; */
